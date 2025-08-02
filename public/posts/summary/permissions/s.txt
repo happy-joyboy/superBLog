@@ -1,0 +1,107 @@
+## Common Vulnerabilities
+
+### 1. Overly open Access Controls
+
+#### Vulnerability
+
+- **Default exported state**: Historically public by default (changed in API 17)
+- **Missing permissions**: No read/write permissions set
+- **Inadequate permissions**: Generic permissions for sensitive data
+
+### 2. Improperly Exposed Directories to FileProvider
+
+#### Vulnerability
+
+An improperly configured `FileProvider` can expose files and directories to an attacker. This often occurs when the `FileProvider` configuration uses broad path elements, such as `<root-path>`, which corresponds to the device's root directory (`/`), or shares a wide path range like `.` or `/`.
+
+- Using `root-path` allowing arbitrary file access
+- Sharing entire private directories (`files`, `cache`)
+- General-purpose providers instead of specific ones
+
+#### Attack
+
+Allowing `<root-path>` grants arbitrary access to files and folders, including an app's sandbox and `/sdcard` directory, presenting a broad attack surface. This can enable an attacker to access sensitive information stored in databases or overwrite the application's native libraries, potentially leading to arbitrary code execution.
+
+
+### 3. Path Traversal when using data from Uri
+
+#### Vulnerability
+
+This common mistake occurs when developers use data from `Uri` methods like `Uri.getLastPathSegment()` or `Uri.getPathSegments()` without proper validation before passing it to file system APIs. These methods decode URL-encoded values, which attackers can exploit.
+- Using `Uri.getLastPathSegment()` without validation
+- URL-decoded values allowing `..%2F` injection
+- Trusting ContentProvider-provided filenames
+
+#### Attack
+
+An attacker can provide a URL-encoded path traversal sequence (e.g., `%2F` for `/`) within a URI. When the vulnerable app decodes and uses this URI segment, it can be tricked into accessing or modifying files outside the intended directory. For example, an attacker could craft a URI like `content://com.victim.path_traversal/..%2Fshared_prefs%2Fsecrets.xml` to retrieve the contents of the `secrets.xml` file, which is typically stored in a private directory.
+
+
+### 4. Trusting ContentProvider-Provided Filename
+
+#### Vulnerability
+
+If a client application doesn't correctly handle a filename provided by a `FileProvider`, a malicious application can implement its own `FileProvider` to provide a crafted filename.
+
+#### Attack
+
+A malicious `FileProvider` can supply a filename that includes path traversal characters (e.g., `../`). When the victim client application attempts to write the received file to its storage using this untrusted filename, it might overwrite its own critical files, such as application code, shared preferences, or other configuration files, potentially leading to malicious code execution or altered application behavior.
+
+#### Mitigation
+- **Don't trust user input for filenames**: When a client application writes a received file, it should ignore the filename provided by the "server" application and instead generate its own unique filename
+- **Sanitize provided filenames (less desirable)**: If unique filenames cannot be generated, sanitize the provided filename by removing path traversal characters and performing canonicalization
+
+### 5. Exploiting Implicit Intents for File Theft and Overwriting
+#### Vulnerability
+Applications often launch implicit intents (e.g., `ACTION_PICK`, `GET_CONTENT`, `IMAGE_CAPTURE`) to interact with other apps, such as file managers or camera apps, to obtain a URI to a file. If the vulnerable app then copies the content from this URI to its public storage or processes it insecurely, it can be exploited.
+
+#### Attack for File Theft
+A malicious app can register an `intent-filter` with a high priority (`android:priority="999"`) to intercept these implicit intents. Instead of providing a legitimate file, the malicious app returns a `file://` URI that points to a sensitive file within the victim app's private directory. When the victim app receives this malicious URI and attempts to copy its content, it unknowingly copies its own private data to a public directory, which the attacker can then read.
+
+#### Attack for Arbitrary File Overwriting
+Similarly, an attacker can use a malicious `ContentProvider` to return a filename that contains path traversal. If the vulnerable app copies the content using this filename, it could write arbitrary data to a sensitive location, like a native library file (`.so`), which could lead to arbitrary code execution within the victim app's context.
+
+### 6. Proxying Requests to More Secure Providers
+#### Vulnerability
+- Lower-permission provider proxying to higher-permission provider
+- Dynamic URIs allowing attacker control over target provider
+
+
+### 7. Theft of Arbitrary Files via File Choosers in WebView
+#### Vulnerability
+
+If an app implements `WebChromeClient.onShowFileChooser()` to allow users to select files from their device, but without proper validation of the chosen file's URI, it can be vulnerable.
+
+#### Attack
+
+An attacker can provide a specially crafted URL to the WebView that includes an `<input type="file">` element. The attacker's app can then intercept the implicit intent launched by `onShowFileChooser()` and return the URI of a protected file from the victim's private storage. The WebView then receives this URI and can potentially leak the content of the protected file.
+
+### 8. Gaining Access via Intent Redirection to Protected Components
+
+#### Vulnerability
+
+An app with an exported activity that takes an `Intent` from outside and returns it via `Activity.setResult()` without filtering unsafe flags, can be forced to grant permissions to Content Providers with the `android:grantUriPermissions="true"` flag.
+
+#### Attack
+
+An attacker sends an intent to this vulnerable activity. This intent includes a `data` URI pointing to the target `ContentProvider` and sets flags like `Intent.FLAG_GRANT_READ_URI_PERMISSION`. Because the vulnerable activity automatically returns the received intent (with its flags) via `setResult()`, the attacker's app receives this modified intent back, now possessing the granted read permission for the specified URI. This allows the attacker to steal or rewrite protected or arbitrary files belonging to the victim application.
+
+### 9. SQL Injection in Shared Databases
+
+#### Vulnerability
+
+- Multiple providers sharing same SQLite database
+- SQL injection in less secure provider affecting secure provider's data
+
+### 10. Zip Path Traversal (ZipSlip)
+
+#### Vulnerability
+
+When an Android app extracts files from compressed archives (like ZIP files), if the extraction logic doesn't validate the filenames within the archive for directory traversal characters (`../`), it can be vulnerable.
+
+#### Attack
+
+An attacker crafts a malicious ZIP file where entries have filenames like `../../../../data/data/com.victim/files/sensitive.txt`. When the vulnerable app unpacks this archive, it could write arbitrary files to locations outside the intended destination directory, potentially overwriting application configuration files, databases, or even native libraries, leading to code execution.
+
+
+

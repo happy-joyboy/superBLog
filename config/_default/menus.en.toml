@@ -10,14 +10,29 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
 
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+
+
+[[main]]
+    name = "Blog"
+    pageRef = "posts"
+    weight = 10
+
+[[main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 1
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
+
+
+[[main]]
+  name = "who am I?"
+  pageRef = "about"
+  weight = 30
 
 #[[main]]
 #  name = "example sub-menu 1"
@@ -58,10 +73,10 @@
 # the copyright notice. Configure as per the main menu above.
 
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+   name = "Tags"
+   pageRef = "tags"
+   weight = 10
 
 # [[footer]]
 #   name = "Categories"

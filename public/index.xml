@@ -2,12 +2,134 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JoyBoy</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on JoyBoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Wed, 30 Jul 2025 00:55:36 +0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>happyk1309@gmail.com (Saeed Khalid)</managingEditor>
+    <webMaster>happyk1309@gmail.com (Saeed Khalid)</webMaster>
+    <copyright>Copy, _right? 🤔</copyright>
+    <lastBuildDate>Wed, 30 Jul 2025 00:55:36 +0300</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android Permissions</title>
+      <link>//localhost:1313/posts/summary/permissions/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/summary/permissions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Android Services - Complete Development &amp; Security Guide</title>
+      <link>//localhost:1313/posts/summary/services/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/summary/services/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Android System File Structure and Storage</title>
+      <link>//localhost:1313/posts/summary/file-structure-and-storage/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/summary/file-structure-and-storage/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Content &amp; File Providers</title>
+      <link>//localhost:1313/posts/summary/providers/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/summary/providers/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/about/</guid>
+      <description>wfwef</description>
+      
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>//localhost:1313/posts/first/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/first/</guid>
+      <description>wfwef</description>
+      
+    </item>
+    
+    <item>
+      <title>HEX Tree Content &amp; File providers Challenges</title>
+      <link>//localhost:1313/posts/ctf/hex_provider/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/ctf/hex_provider/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HEX Tree intent Challenges</title>
+      <link>//localhost:1313/posts/ctf/hex_intent/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/ctf/hex_intent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HEX Tree Services Challenges</title>
+      <link>//localhost:1313/posts/ctf/hex_services/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/ctf/hex_services/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>IOT Connect</title>
+      <link>//localhost:1313/posts/ctf/iotconnect/iotconnect/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/ctf/iotconnect/iotconnect/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>What is your (Intent)ion</title>
+      <link>//localhost:1313/posts/summary/intents/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/summary/intents/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HEX Tree Broadcast Challenges</title>
+      <link>//localhost:1313/posts/ctf/hex_broadcast/</link>
+      <pubDate>Mon, 14 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/ctf/hex_broadcast/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/ctf/hex_broadcast/feature.jpg" />
+    </item>
     
   </channel>
 </rss>

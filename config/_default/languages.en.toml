@@ -10,20 +10,19 @@ title = "JoyBoy"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "img/profile/imagesluffy.jpeg"
-  #secondaryLogo = "img/theOne.png"
   description = "My awesome website"
-  copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "Copy, _right? 🤔"
 
  [params.author]
    name = "Saeed Khalid"
-   #email = "youremail@example.com"
+   email = "happyk1309@gmail.com"
    image = "img/profile/theOne.jpg"
    imageQuality = 100
-   headline = "I'm only human"
-   bio = "A little bit about you"
+   headline = "I'm only a Robot"
+   bio = "Just trying to have fun"
    links = [
-    { github = "https://github.com/username" },
-    { linkedin = "https://linkedin.com/in/username" },
-    { x-twitter = "https://twitter.com/username" },
+    { github = "https://github.com/happy-joyboy" },
+    { linkedin = "https://www.linkedin.com/in/saeed-khalid-awaad/" },
+    { x-twitter = "https://x.com/0badsecurity0" },
     { youtube = "https://youtube.com/username" },
    ]

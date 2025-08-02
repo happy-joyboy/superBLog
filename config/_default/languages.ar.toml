@@ -1,0 +1,34 @@
+disabled = false
+languageCode = "ar"
+languageName = "العربية"
+weight = 2
+title = "JoyBoy"
+
+[params]
+  displayName = "AR"
+  isoCode = "ar"
+  rtl = true
+  dateFormat = "2 January 2006"
+  logo = "img/profile/imagesluffy.jpeg"
+  description = "My awesome website"
+  contentDir = "content/ar/posts"
+
+ [params.author]
+   name = "سعيد خالد "
+   email = "happyk1309@gmail.com"
+   image = "img/profile/theOne.jpg"
+   imageQuality = 100
+   headline = "عابز اكتب حاجة جد بس مش لاقي"
+   bio = """
+فَإِن عِشتَ مَحموداً فَمِثلي بَغى الغِنى
+لِيَكسِبَ مالاً أَو يُنَث لَهُ حَمدُ
+وَإِن مِتُّ لَم أَظفَر فَلَيسَ عَلى اِمرِئٍ
+غَدا طالِباً إِلّا تَقَصّيهِ وَالجَهدُ
+_البحتري_
+   """
+   links = [
+    { github = "https://github.com/happy-joyboy" },
+    { linkedin = "https://www.linkedin.com/in/saeed-khalid-awaad/" },
+    { x-twitter = "https://x.com/0badsecurity0" },
+    { youtube = "https://youtube.com/username" },
+   ]
