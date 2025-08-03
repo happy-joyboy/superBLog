@@ -1,0 +1,3 @@
++++
+layoutBackgroundBlur = false
++++

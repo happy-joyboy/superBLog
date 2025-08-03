@@ -57,6 +57,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
   disableHeroImageFilter = false # only used when layout equals hero
+  ShowLanguageSwitcher = true
 
 [article]
   showDate = true
@@ -90,11 +91,12 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showWordCount = true
   sharingLinks = [ "linkedin", "twitter", "mastodon", "reddit", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = true
+  ShowLanguageSwitcher = true
 
 [list]
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = false # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showSummary = true
@@ -107,6 +109,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   cardView = true
   cardViewScreenWidth = false
   constrainItemsWidth = false
+  ShowLanguageSwitcher = true
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
@@ -125,12 +128,13 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = true
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showTableOfContents = true
   groupByYear = true
   cardView = true
   cardViewScreenWidth = false
+  ShowLanguageSwitcher = true
 
 [firebase]
   # apiKey = "XXXXXX"

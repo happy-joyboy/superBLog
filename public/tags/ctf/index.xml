@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ctf on JoyBoy</title>
+    <link>//localhost:1313/tags/ctf/</link>
+    <description>Recent content in Ctf on JoyBoy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>happyk1309@gmail.com (Saeed Khalid)</managingEditor>
+    <webMaster>happyk1309@gmail.com (Saeed Khalid)</webMaster>
+    <copyright>Copy, _right? 🤔</copyright>
+    <lastBuildDate>Wed, 30 Jul 2025 00:55:36 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HEX Tree Content &amp; File providers Challenges</title>
+      <link>//localhost:1313/posts/ctf/hex/hex_provider/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/ctf/hex/hex_provider/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HEX Tree intent Challenges</title>
+      <link>//localhost:1313/posts/ctf/hex/hex_intent/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/ctf/hex/hex_intent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HEX Tree Services Challenges</title>
+      <link>//localhost:1313/posts/ctf/hex/hex_services/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/ctf/hex/hex_services/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HEX Tree Broadcast Challenges</title>
+      <link>//localhost:1313/posts/ctf/hex/hex_broadcast/</link>
+      <pubDate>Mon, 14 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/ctf/hex/hex_broadcast/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/ctf/hex/hex_broadcast/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>

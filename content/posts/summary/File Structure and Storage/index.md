@@ -2,6 +2,7 @@
 date = '2025-07-30T00:55:36+03:00'
 draft = false
 title = 'Android System File Structure and Storage'
+tags = ['Summary', 'Andorid']
 +++
 
 ## Storage summary

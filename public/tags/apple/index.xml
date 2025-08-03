@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apple on JoyBoy</title>
+    <link>//localhost:1313/tags/apple/</link>
+    <description>Recent content in Apple on JoyBoy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>happyk1309@gmail.com (Saeed Khalid)</managingEditor>
+    <webMaster>happyk1309@gmail.com (Saeed Khalid)</webMaster>
+    <copyright>Copy, _right? 🤔</copyright>
+    <lastBuildDate>Wed, 30 Jul 2025 00:55:36 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Broadcast</title>
+      <link>//localhost:1313/posts/summary/broadcast/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/summary/broadcast/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -42,6 +42,16 @@
     </item>
     
     <item>
+      <title>Broadcast</title>
+      <link>//localhost:1313/posts/summary/broadcast/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (Saeed Khalid)</author>
+      <guid>//localhost:1313/posts/summary/broadcast/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Content &amp; File Providers</title>
       <link>//localhost:1313/posts/summary/providers/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
@@ -57,46 +67,46 @@
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
       <guid>//localhost:1313/posts/first/</guid>
-      <description>wfwef</description>
-      
+      <description>?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/first/featured.png" />
     </item>
     
     <item>
       <title>HEX Tree Content &amp; File providers Challenges</title>
-      <link>//localhost:1313/posts/ctf/hex_provider/</link>
+      <link>//localhost:1313/posts/ctf/hex/hex_provider/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/ctf/hex_provider/</guid>
+      <guid>//localhost:1313/posts/ctf/hex/hex_provider/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>HEX Tree intent Challenges</title>
-      <link>//localhost:1313/posts/ctf/hex_intent/</link>
+      <link>//localhost:1313/posts/ctf/hex/hex_intent/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/ctf/hex_intent/</guid>
+      <guid>//localhost:1313/posts/ctf/hex/hex_intent/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>HEX Tree Services Challenges</title>
-      <link>//localhost:1313/posts/ctf/hex_services/</link>
+      <link>//localhost:1313/posts/ctf/hex/hex_services/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/ctf/hex_services/</guid>
+      <guid>//localhost:1313/posts/ctf/hex/hex_services/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>IOT Connect</title>
-      <link>//localhost:1313/posts/ctf/iotconnect/iotconnect/</link>
+      <link>//localhost:1313/posts/ctf/mobilehackinglab/iotconnect/iotconnect/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/ctf/iotconnect/iotconnect/</guid>
+      <guid>//localhost:1313/posts/ctf/mobilehackinglab/iotconnect/iotconnect/</guid>
       <description></description>
       
     </item>
@@ -113,12 +123,12 @@
     
     <item>
       <title>HEX Tree Broadcast Challenges</title>
-      <link>//localhost:1313/posts/ctf/hex_broadcast/</link>
+      <link>//localhost:1313/posts/ctf/hex/hex_broadcast/</link>
       <pubDate>Mon, 14 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/ctf/hex_broadcast/</guid>
+      <guid>//localhost:1313/posts/ctf/hex/hex_broadcast/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/ctf/hex_broadcast/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/ctf/hex/hex_broadcast/feature.jpg" />
     </item>
     
   </channel>

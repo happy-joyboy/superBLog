@@ -2,6 +2,7 @@
 date = '2025-07-30T00:55:36+03:00'
 draft = false
 title = 'Content & File Providers'
+tags = ['Summary', 'Andorid', 'contnet provider', 'file provider']
 +++
 
 ## Summary

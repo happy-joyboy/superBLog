@@ -2,6 +2,7 @@
 date = '2025-07-30T00:55:36+03:00'
 draft = false
 title = 'Android Services - Complete Development & Security Guide'
+tags = ['Summary', 'Andorid', 'services', '']
 +++
 
 ## Summary
@@ -331,7 +332,7 @@ public class MyMessageService extends Service {
 }
 ```
 
-A Looper is essentially a message pump that Runs an infinite loop on a thread to Pull messages from a MessageQueue then Dispatches/send them to the appropriate Handler and Keeps the thread alive to process messages
+A Looper is just a message pump that Runs an infinite loop on a thread to Pull messages from a MessageQueue then Dispatches/send them to the appropriate Handler and Keeps the thread alive to process messages
 
 ##### C. Using AIDL (Android Interface Definition Language)
 

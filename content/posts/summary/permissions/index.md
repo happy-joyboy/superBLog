@@ -2,6 +2,7 @@
 date = '2025-07-30T00:55:36+03:00'
 draft = false
 title = 'Android Permissions'
+tags = ['Summary', 'Andorid', 'permissions']
 +++
 
 ## 1. Android Sandboxing

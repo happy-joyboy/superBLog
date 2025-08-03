@@ -11,7 +11,7 @@ title = "JoyBoy"
   dateFormat = "2 January 2006"
   logo = "img/profile/imagesluffy.jpeg"
   description = "My awesome website"
-  contentDir = "content/ar/posts"
+
 
  [params.author]
    name = "سعيد خالد "
