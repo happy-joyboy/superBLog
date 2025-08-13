@@ -5,6 +5,7 @@
 theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://happy-joyboy.github.io/superBLog/"
 
+#baseURL=""
 defaultContentLanguage = "en"
 
 

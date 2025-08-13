@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Summary on JoyBoy</title>
-    <link>//localhost:1313/tags/summary/</link>
+    <link>http://localhost:1313/superBLog/tags/summary/</link>
     <description>Recent content in Summary on JoyBoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>happyk1309@gmail.com (Saeed Khalid)</managingEditor>
     <webMaster>happyk1309@gmail.com (Saeed Khalid)</webMaster>
     <copyright>Copy, _right? 🤔</copyright>
-    <lastBuildDate>Wed, 30 Jul 2025 00:55:36 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/summary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jul 2025 00:55:36 +0300</lastBuildDate><atom:link href="http://localhost:1313/superBLog/tags/summary/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Android Permissions</title>
-      <link>//localhost:1313/posts/summary/permissions/</link>
+      <link>http://localhost:1313/superBLog/posts/summary/permissions/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/summary/permissions/</guid>
+      <guid>http://localhost:1313/superBLog/posts/summary/permissions/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Android Services - Complete Development &amp; Security Guide</title>
-      <link>//localhost:1313/posts/summary/services/</link>
+      <link>http://localhost:1313/superBLog/posts/summary/services/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/summary/services/</guid>
+      <guid>http://localhost:1313/superBLog/posts/summary/services/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Android System File Structure and Storage</title>
-      <link>//localhost:1313/posts/summary/file-structure-and-storage/</link>
+      <link>http://localhost:1313/superBLog/posts/summary/file-structure-and-storage/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/summary/file-structure-and-storage/</guid>
+      <guid>http://localhost:1313/superBLog/posts/summary/file-structure-and-storage/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Broadcast</title>
-      <link>//localhost:1313/posts/summary/broadcast/</link>
+      <link>http://localhost:1313/superBLog/posts/summary/broadcast/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/summary/broadcast/</guid>
+      <guid>http://localhost:1313/superBLog/posts/summary/broadcast/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Content &amp; File Providers</title>
-      <link>//localhost:1313/posts/summary/providers/</link>
+      <link>http://localhost:1313/superBLog/posts/summary/providers/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/summary/providers/</guid>
+      <guid>http://localhost:1313/superBLog/posts/summary/providers/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>What is your (Intent)ion</title>
-      <link>//localhost:1313/posts/summary/intents/</link>
+      <link>http://localhost:1313/superBLog/posts/summary/intents/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
-      <guid>//localhost:1313/posts/summary/intents/</guid>
+      <guid>http://localhost:1313/superBLog/posts/summary/intents/</guid>
       <description></description>
       
     </item>

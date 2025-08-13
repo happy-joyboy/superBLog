@@ -3,83 +3,83 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//localhost:1313/ar/posts/ctf/mobile/hex/hex_intent/</loc>
+    <loc>http://localhost:1313/superBLog/ar/posts/ctf/mobile/hex/hex_intent/</loc>
     <lastmod>2025-07-30T00:55:36+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="//localhost:1313/posts/ctf/mobile/hex/hex_intent/"
+      href="http://localhost:1313/superBLog/posts/ctf/mobile/hex/hex_intent/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ar"
-      href="//localhost:1313/ar/posts/ctf/mobile/hex/hex_intent/"
+      href="http://localhost:1313/superBLog/ar/posts/ctf/mobile/hex/hex_intent/"
     />
   </url>
   <url>
-    <loc>//localhost:1313/ar/</loc>
+    <loc>http://localhost:1313/superBLog/ar/</loc>
     <lastmod>2025-07-30T00:55:36+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="//localhost:1313/"
+      href="http://localhost:1313/superBLog/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ar"
-      href="//localhost:1313/ar/"
+      href="http://localhost:1313/superBLog/ar/"
     />
   </url>
   <url>
-    <loc>//localhost:1313/ar/posts/</loc>
+    <loc>http://localhost:1313/superBLog/ar/posts/</loc>
     <lastmod>2025-07-30T00:55:36+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="//localhost:1313/posts/"
+      href="http://localhost:1313/superBLog/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ar"
-      href="//localhost:1313/ar/posts/"
+      href="http://localhost:1313/superBLog/ar/posts/"
     />
   </url>
   <url>
-    <loc>//localhost:1313/ar/posts/ctf/mobile/hex/hex_provider/</loc>
+    <loc>http://localhost:1313/superBLog/ar/posts/ctf/mobile/hex/hex_provider/</loc>
     <lastmod>2025-07-30T00:55:36+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="//localhost:1313/posts/ctf/mobile/hex/hex_provider/"
+      href="http://localhost:1313/superBLog/posts/ctf/mobile/hex/hex_provider/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ar"
-      href="//localhost:1313/ar/posts/ctf/mobile/hex/hex_provider/"
+      href="http://localhost:1313/superBLog/ar/posts/ctf/mobile/hex/hex_provider/"
     />
   </url>
   <url>
-    <loc>//localhost:1313/ar/posts/ctf/mobile/hex/hex_broadcast/</loc>
+    <loc>http://localhost:1313/superBLog/ar/posts/ctf/mobile/hex/hex_broadcast/</loc>
     <lastmod>2025-07-14T00:55:36+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="//localhost:1313/posts/ctf/mobile/hex/hex_broadcast/"
+      href="http://localhost:1313/superBLog/posts/ctf/mobile/hex/hex_broadcast/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ar"
-      href="//localhost:1313/ar/posts/ctf/mobile/hex/hex_broadcast/"
+      href="http://localhost:1313/superBLog/ar/posts/ctf/mobile/hex/hex_broadcast/"
     />
   </url>
 </urlset>

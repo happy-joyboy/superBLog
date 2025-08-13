@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on JoyBoy</title>
-    <link>//localhost:1313/ar/tags/</link>
+    <link>http://localhost:1313/superBLog/ar/tags/</link>
     <description>Recent content in Tags on JoyBoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ar</language>
     <managingEditor>happyk1309@gmail.com (سعيد خالد )</managingEditor>
     <webMaster>happyk1309@gmail.com (سعيد خالد )</webMaster>
     <copyright>© 2025 سعيد خالد </copyright>
-    <lastBuildDate>Wed, 30 Jul 2025 00:55:36 +0300</lastBuildDate><atom:link href="//localhost:1313/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jul 2025 00:55:36 +0300</lastBuildDate><atom:link href="http://localhost:1313/superBLog/ar/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Andorid</title>
-      <link>//localhost:1313/ar/tags/andorid/</link>
+      <link>http://localhost:1313/superBLog/ar/tags/andorid/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/tags/andorid/</guid>
+      <guid>http://localhost:1313/superBLog/ar/tags/andorid/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Contnet Provider</title>
-      <link>//localhost:1313/ar/tags/contnet-provider/</link>
+      <link>http://localhost:1313/superBLog/ar/tags/contnet-provider/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/tags/contnet-provider/</guid>
+      <guid>http://localhost:1313/superBLog/ar/tags/contnet-provider/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ctf</title>
-      <link>//localhost:1313/ar/tags/ctf/</link>
+      <link>http://localhost:1313/superBLog/ar/tags/ctf/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/tags/ctf/</guid>
+      <guid>http://localhost:1313/superBLog/ar/tags/ctf/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Deep Link</title>
-      <link>//localhost:1313/ar/tags/deep-link/</link>
+      <link>http://localhost:1313/superBLog/ar/tags/deep-link/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/tags/deep-link/</guid>
+      <guid>http://localhost:1313/superBLog/ar/tags/deep-link/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>File Provider</title>
-      <link>//localhost:1313/ar/tags/file-provider/</link>
+      <link>http://localhost:1313/superBLog/ar/tags/file-provider/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/tags/file-provider/</guid>
+      <guid>http://localhost:1313/superBLog/ar/tags/file-provider/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Implicit</title>
-      <link>//localhost:1313/ar/tags/implicit/</link>
+      <link>http://localhost:1313/superBLog/ar/tags/implicit/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/tags/implicit/</guid>
+      <guid>http://localhost:1313/superBLog/ar/tags/implicit/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Intent</title>
-      <link>//localhost:1313/ar/tags/intent/</link>
+      <link>http://localhost:1313/superBLog/ar/tags/intent/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/tags/intent/</guid>
+      <guid>http://localhost:1313/superBLog/ar/tags/intent/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Pending</title>
-      <link>//localhost:1313/ar/tags/pending/</link>
+      <link>http://localhost:1313/superBLog/ar/tags/pending/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/tags/pending/</guid>
+      <guid>http://localhost:1313/superBLog/ar/tags/pending/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Broadcast</title>
-      <link>//localhost:1313/ar/tags/broadcast/</link>
+      <link>http://localhost:1313/superBLog/ar/tags/broadcast/</link>
       <pubDate>Mon, 14 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/tags/broadcast/</guid>
+      <guid>http://localhost:1313/superBLog/ar/tags/broadcast/</guid>
       <description></description>
       
     </item>
