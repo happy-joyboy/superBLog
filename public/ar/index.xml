@@ -13,22 +13,32 @@
     
     <item>
       <title>HEX Tree intent تحديات</title>
-      <link>//localhost:1313/ar/posts/ctf/hex/hex_intent/</link>
+      <link>//localhost:1313/ar/posts/ctf/mobile/hex/hex_intent/</link>
       <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/posts/ctf/hex/hex_intent/</guid>
+      <guid>//localhost:1313/ar/posts/ctf/mobile/hex/hex_intent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>تحديات HEX Tree Content &amp; File providers</title>
+      <link>//localhost:1313/ar/posts/ctf/mobile/hex/hex_provider/</link>
+      <pubDate>Wed, 30 Jul 2025 00:55:36 +0300</pubDate>
+      <author>happyk1309@gmail.com (سعيد خالد )</author>
+      <guid>//localhost:1313/ar/posts/ctf/mobile/hex/hex_provider/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>HEX Tree Broadcast تحديات</title>
-      <link>//localhost:1313/ar/posts/ctf/hex/hex_broadcast/</link>
+      <link>//localhost:1313/ar/posts/ctf/mobile/hex/hex_broadcast/</link>
       <pubDate>Mon, 14 Jul 2025 00:55:36 +0300</pubDate>
       <author>happyk1309@gmail.com (سعيد خالد )</author>
-      <guid>//localhost:1313/ar/posts/ctf/hex/hex_broadcast/</guid>
+      <guid>//localhost:1313/ar/posts/ctf/mobile/hex/hex_broadcast/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/ctf/hex/hex_broadcast/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/ctf/mobile/hex/hex_broadcast/feature.jpg" />
     </item>
     
   </channel>

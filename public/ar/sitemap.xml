@@ -3,24 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//localhost:1313/ar/posts/ctf/hex/hex_broadcast/</loc>
-    <lastmod>2025-07-14T00:55:36+03:00</lastmod>
+    <loc>//localhost:1313/ar/posts/ctf/mobile/hex/hex_intent/</loc>
+    <lastmod>2025-07-30T00:55:36+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="//localhost:1313/posts/ctf/hex/hex_broadcast/"
+      href="//localhost:1313/posts/ctf/mobile/hex/hex_intent/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ar"
-      href="//localhost:1313/ar/posts/ctf/hex/hex_broadcast/"
+      href="//localhost:1313/ar/posts/ctf/mobile/hex/hex_intent/"
     />
   </url>
   <url>
     <loc>//localhost:1313/ar/</loc>
-    <lastmod>2025-07-14T00:55:36+03:00</lastmod>
+    <lastmod>2025-07-30T00:55:36+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -36,7 +36,7 @@
   </url>
   <url>
     <loc>//localhost:1313/ar/posts/</loc>
-    <lastmod>2025-07-14T00:55:36+03:00</lastmod>
+    <lastmod>2025-07-30T00:55:36+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -48,6 +48,38 @@
       rel="alternate"
       hreflang="ar"
       href="//localhost:1313/ar/posts/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/ar/posts/ctf/mobile/hex/hex_provider/</loc>
+    <lastmod>2025-07-30T00:55:36+03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/posts/ctf/mobile/hex/hex_provider/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="//localhost:1313/ar/posts/ctf/mobile/hex/hex_provider/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/ar/posts/ctf/mobile/hex/hex_broadcast/</loc>
+    <lastmod>2025-07-14T00:55:36+03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/posts/ctf/mobile/hex/hex_broadcast/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="//localhost:1313/ar/posts/ctf/mobile/hex/hex_broadcast/"
     />
   </url>
 </urlset>
