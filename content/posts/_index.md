@@ -1,3 +1,0 @@
-+++
-layoutBackgroundBlur = false
-+++
