@@ -18,7 +18,7 @@
       <author>happyk1309@gmail.com (Saeed Khalid)</author>
       <guid>http://localhost:1313/superBLog/posts/malware/mobile/thicamera/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/superBLog/posts/malware/mobile/thicamera/featured.png" />
     </item>
     
   </channel>

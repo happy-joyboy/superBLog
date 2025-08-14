@@ -187,6 +187,16 @@
 
 
 
+  
+  
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/superBLog/js/mermaid.bundle.adc6512ea1d62944db976c764d8b2ec6608bb8c19c3c1d3107ef49ac30152d78817f08813143045f3cfdd25acd91ea49fae8845abd4db341fdcf2c004b4bc190.js"
+    integrity="sha512-rcZRLqHWKUTbl2x2TYsuxmCLuMGcPB0xB&#43;9JrDAVLXiBfwiBMUMEXzz90lrNkepJ&#43;uiEWr1Ns0H9zywAS0vBkA=="></script>
+
 
 
 
@@ -1690,32 +1700,37 @@
 </ul>
 </li>
 </ol>
-<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">flowchart TD
-    A[URI Received] --&gt; B{Match URI Pattern}
-    B --&gt;|Match == 2| C[Individual Flag Query]
-    B --&gt;|Match == 1| D[General Flags Query]
+<div class="mermaid" align="center">
+  <pre>
+flowchart TD
+    A[URI Received] --> B{Match URI Pattern}
+    B -->|Match == 2| C[Individual Flag Query]
+    B -->|Match == 1| D[General Flags Query]
     
-    C --&gt; C1[Extract ID from URI&lt;br/&gt;example: /flag/32 to 32]
-    C1 --&gt; C2[Build query:&lt;br/&gt;name=flag32 AND visible=1]
-    C2 --&gt; C3[Return single flag cursor]
+    C --> C1[Extract ID from URI<br/>example: /flag/32 to 32]
+    C1 --> C2[Build query:<br/>name=flag32 AND visible=1]
+    C2 --> C3[Return single flag cursor]
     
-    D --&gt; D1[Build base query:&lt;br/&gt;visible=1]
-    D1 --&gt; D2{Additional filters?}
-    D2 --&gt;|Yes| D3[Append to query]
-    D2 --&gt;|No| D4[Execute query]
-    D3 --&gt; D4
-    D4 --&gt; D5[Check for flag32]
+    D --> D1[Build base query:<br/>visible=1]
+    D1 --> D2{Additional filters?}
+    D2 -->|Yes| D3[Append to query]
+    D2 -->|No| D4[Execute query]
+    D3 --> D4
+    D4 --> D5[Check for flag32]
     
-    D5 --&gt; E{containsFlag32?}
-    E --&gt;|Yes| F[Trigger success and&lt;br/&gt;Requery cursor]
-    E --&gt;|No| G[Return original cursor]
+    D5 --> E{containsFlag32?}
+    E -->|Yes| F[Trigger success and<br/>Requery cursor]
+    E -->|No| G[Return original cursor]
     
-    F --&gt; M[Return refreshed cursor]
+    F --> M[Return refreshed cursor]
     
     style C fill:#d4f1f9,stroke:#333
     style D fill:#f9e4d4,stroke:#333
     style containsFlag32Check fill:#e8f9d4,stroke:#333
-</code></pre>
+</pre>
+</div>
+
+
 <h4 class="relative group">Solution 
     <div id="solution-2" class="anchor"></div>
     

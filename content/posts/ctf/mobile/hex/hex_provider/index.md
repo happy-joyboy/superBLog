@@ -323,7 +323,7 @@ This also defines the same matchers from the previous flags. The `query()` metho
 	- creating a base query with `visible=1` then Appends any additional selection criteria if provided and  After executing the query, checks if the results contain "flag32" using `containsFlag32()`
 	- if found our success is called 
 
-```mermaid
+{{< mermaid >}}
 flowchart TD
     A[URI Received] --> B{Match URI Pattern}
     B -->|Match == 2| C[Individual Flag Query]
@@ -349,7 +349,7 @@ flowchart TD
     style C fill:#d4f1f9,stroke:#333
     style D fill:#f9e4d4,stroke:#333
     style containsFlag32Check fill:#e8f9d4,stroke:#333
-```
+{{< /mermaid >}}
 
 #### Solution
 The key is in the second part cuz it constructs the filters for query and takes input directly and that makes it vulnerable to sql injection  (Boolean based slqi)
