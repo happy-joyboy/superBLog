@@ -3,9 +3,9 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "https://happy-joyboy.github.io/superBLog/"
+#baseURL = "https://happy-joyboy.github.io/superBLog/"
 
-#baseURL=""
+baseURL=""
 defaultContentLanguage = "en"
 
 
