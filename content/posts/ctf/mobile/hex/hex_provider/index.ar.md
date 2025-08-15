@@ -2,7 +2,7 @@
 date = '2025-07-30T00:55:36+03:00' 
 draft = false 
 title = 'تحديات HEX Tree Content & File providers' 
-tags = ['ctf', 'Andorid', 'contnet provider', 'file provider'] 
+tags = ['ctf', 'Andorid', 'contnet provider', 'file provider', 'hextree']
 +++
 
 بما إننا هنتعامل مع قاعدة البيانات دي كتير، قولت ما نبصلها الأول عشان نفهم إيه اللي إحنا هنتعمل معاه:

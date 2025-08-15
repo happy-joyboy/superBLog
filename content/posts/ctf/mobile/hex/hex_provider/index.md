@@ -2,7 +2,7 @@
 date = '2025-07-30T00:55:36+03:00'
 draft = false
 title = 'HEX Tree Content & File providers Challenges'
-tags = ['ctf', 'Andorid', 'contnet provider', 'file provider']
+tags = ['ctf', 'Andorid', 'contnet provider', 'file provider', 'hextree']
 +++
 
 Since we will interact with this database alot i thought why not take a look at it first so that we have a general idea if what we are up against:

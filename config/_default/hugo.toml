@@ -25,6 +25,8 @@ enableEmoji = true
 [pagination]
   pagerSize = 12
 
+  #pagerSize = 10  # Replace 10 with your desired number of items per page
+
 [imaging]
   anchor = 'Center'
 

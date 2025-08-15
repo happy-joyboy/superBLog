@@ -2,7 +2,7 @@
 date = '2025-07-14T00:55:36+03:00'
 draft = false
 title = 'HEX Tree Broadcast تحديات'
-tags = ['Ctf', 'Andorid', 'broadcast']
+tags = ['Ctf', 'Andorid', 'broadcast', 'hextree']
 +++
 
 ### Flag 16

@@ -2,12 +2,13 @@
 date = '2025-07-30T00:55:36+03:00'
 draft = false
 title = 'HEX Tree Services Challenges'
-tags = ['ctf', 'Andorid', 'services']
+tags = ['ctf', 'Andorid', 'services', 'hextree']
 
 +++
 
 ### Flag 24
 #### Code analysis
+
 ```xml
 <activity
             android:name="io.hextree.attacksurface.activities.Flag24Activity"
