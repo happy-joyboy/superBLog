@@ -14,7 +14,7 @@ tags = ['attack', 'llmnr', 'demo', 'AD']
 4. No local DNS record found? A query will be sent to the configured DNS server
 5. If all else fails – the machine will send a multicast query, asking other machines in the network for _fileshare_‘s IP address
 
-![alt](win name res.png)
+![alt](win.png)
 
 
 This is multicast query managed by three main protocols: **NBT-NS** (NetBIOS Name Service , old but maybe), **LLMNR** (Link-Local Multicast Name Resolution) and **mDNS** (multicast DNS). (old protocols are used for  legacy support and compatibility)
@@ -192,8 +192,8 @@ wmic nicconfig get caption,index,TcpipNetbiosOptions
 ```
 # Resources
 
-https://blogs.dsu.edu/digforce/2023/08/04/llmnr-nbt-ns-what-it-is-and-how-to-disable-it/
-https://www.blumira.com/integration/disable-llmnr-netbios-wpad-lm-hash/
-https://tcm-sec.com/llmnr-poisoning-and-how-to-prevent-it/
-https://www.infosecademy.com/nmap-smb-scripts-enumeration/
+- [LLMNR & NBT-NS: What It Is and How to Disable It (DSU Blog)](https://blogs.dsu.edu/digforce/2023/08/04/llmnr-nbt-ns-what-it-is-and-how-to-disable-it/)
+- [How to Disable LLMNR, NetBIOS, WPAD, and LM Hash (Blumira)](https://www.blumira.com/integration/disable-llmnr-netbios-wpad-lm-hash/)
+- [LLMNR Poisoning and How to Prevent It (TCM Security)](https://tcm-sec.com/llmnr-poisoning-and-how-to-prevent-it/)
+- [Nmap SMB Scripts & Enumeration (Infosecademy)](https://www.infosecademy.com/nmap-smb-scripts-enumeration/)
 
